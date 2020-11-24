@@ -1,0 +1,38 @@
+List Questions = [
+  {
+    "id":1,
+    "isMe":true,
+    "ans":false,
+    "type":[],
+    "question":"Hey there"
+  },
+  {
+    "id":2,
+    "isMe":true,
+    "ans":true,
+    "type":["Yes","No"],
+    "question":"Do you have any issue related to your health?"
+  },
+  {
+    "id":3,
+    "isMe":true,
+    "ans":true,
+    "type":["Not taking any medications","Thinking to take","Directed by Physician",],
+    "question":"What are the current medications that you are taking?"
+  },
+  {
+    "id":4,
+    "isMe":false,
+    "ans":true,
+    "type":["Yes","No"],
+    "question":"Do you have any symptom?"
+  },
+  {
+    "id":5,
+    "isMe":true,
+    "ans":true,
+    "type":["fever","headache","cold","ache(somewhere)"],
+    "question":"Which symptom do you have fever/headache/cold etc?"
+  },
+];
+
